@@ -1,0 +1,10 @@
+package shaders;
+
+public class StaticShader extends ShaderProgram {
+
+	public StaticShader(String vertexFile, String fragmentFile) {
+		super(vertexFile, fragmentFile);
+		// TODO Auto-generated constructor stub
+	}
+
+}

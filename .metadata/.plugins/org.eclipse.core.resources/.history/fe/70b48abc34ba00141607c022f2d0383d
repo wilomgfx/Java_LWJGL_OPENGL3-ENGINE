@@ -1,0 +1,14 @@
+package models;
+
+public class TexturedModel {
+	
+	private RawModel rawModel;
+	private ModelTexture texture;
+	
+	public TexturedModel(Raw model,ModelTexture texture)
+	{
+		this.rawModel = model;
+		this.texture = texture;
+	}
+
+}
